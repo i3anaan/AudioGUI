@@ -59,6 +59,7 @@ public class AudioButton extends BorderPane implements Runnable,
 	@Override
 	public void run() {
 		//Media completed.
+		player.stop();
 		titleButton.setTextFill(Color.BLACK);
 	}
 }
